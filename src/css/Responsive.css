@@ -1,0 +1,66 @@
+@media(max-width:375px) {
+      .container {
+
+            flex-direction: column-reverse;
+            height: 100%;
+            max-width: 100%;
+
+
+
+
+      }
+
+      .banner {
+            height: 300px;
+            max-width: 100%;
+            margin: 0;
+            border-radius: 1rem 1rem 0 0;
+            /* background-image: url("/images/image-header-mobile.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 50%; */
+      }
+      
+      .banner img {
+           max-width: 100%;
+           max-height:100% ;
+            border-radius: 1rem 1rem 0 0;
+
+
+
+      }
+
+      .banner,
+      .number {
+            margin: 1rem 0;
+            padding: 0;
+      }
+
+      .descritions {
+            width: 100%;
+            max-height: 100%;
+            text-align: center;
+            margin: 0;
+           
+            padding-top: 0;
+            padding-bottom: 0;
+
+
+
+      }
+      .descritions h1{
+            font-size: 26px;
+      }
+      .descritions p{
+            margin: 0;
+            
+      }
+
+      .number {
+            flex-direction: column;
+      }
+      .number span{
+            margin: 1rem 0;
+      }
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+
+}
+
+body,html {
+      display: flex;
+      flex-direction: column;
+      background-color: hsl(233, 47%, 7%);
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+}
+
+.container {
+      width: 1020px;
+      height: 400px;
+      background-color: hsl(244, 38%, 16%);
+      display: flex;
+      flex-direction: row;
+      border-radius: 0.5rem;
+}
+
+.descritions {
+      color: hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 4rem 2rem 2rem;
+      padding: 1rem 2rem;
+      width: 500px;
+      
+
+}
+
+.descritions h1,
+p {
+      margin: 1rem 0;
+
+
+}
+.descritions p{
+      line-height: 1.4rem;
+}
+
+.descritions h1 strong {
+      color: hsl(277, 64%, 61%)
+}
+
+.descritions p {
+      color: hsla(0, 0%, 100%, 0.6);
+      font-weight: 100;
+      font-size: 14px;
+      letter-spacing:1px;
+      
+
+
+}
+
+.banner {
+      max-width: 100%;
+      max-height: 100%;
+      background-color: hsl(277, 64%, 61%);
+      border-radius: 0 1rem 1rem 0;
+  
+}
+
+.banner img {
+      height: 100%;
+      width: 100%;
+      opacity: 30%;
+      border-radius: 0 1rem 1rem 0;
+}
+
+.number {
+      display: flex;
+      margin: 3rem 3rem 1rem 0rem;
+      flex-direction: row;
+      justify-content: space-between;
+      text-transform: uppercase;
+      max-width: 100%;
+
+}
+.number p{
+      font-size: 12px;
+      margin: 2px 0;
+}
